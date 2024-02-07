@@ -1,4 +1,4 @@
-from logic import *
+from logic import config
 
 def main(): 
     a = config.config()

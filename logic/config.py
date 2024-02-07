@@ -17,7 +17,7 @@ class config():
     def get_names_sorted(self):
         with open('names.json') as f:
             data = json.load(f)
-        return sorted(data.keys())
+        return sorted(data.values())
     
     def get_names_sorted_by_length():
         with open('names.json') as f:
